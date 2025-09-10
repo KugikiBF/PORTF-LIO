@@ -30,14 +30,14 @@ header{
 }
 
 #menu a:hover{
-    background-color: blanchedalmond;
-    color: blueviolet;
+    background-color: #F0F66E;
+    color: #355364;
     transition: background-color 0.5s, color 0.5s;
 }
 main{
     display: grid;
     grid-template-columns: 0.1fr 2fr 0.1fr;
-    grid-template-rows: 370px 370px 370px;
+    grid-template-rows: 370px 370px 370px 370px 370px 370px;
 }
 #ficha{
     display: grid;
@@ -79,11 +79,63 @@ main{
     margin-top: 5px;
     padding: 10px;
 }
-iframe{
+#apresentacao iframe{
     justify-self: center;
     border-radius: 8px;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.219);
 }
+#habilidades{
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: #355364;
+    display: grid;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.116);
+    margin-top: 5px;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.barra-div{
+    background-color: #9fa39f;
+    width: 62%;
+    height: 12px;
+    margin-top: 5px;
+    border-radius: 50px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.progress{
+    background-color: #F0F66E;
+    width: 20%;
+    border-radius: 50px;
+    height: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+.titulo{
+    width: 20%;
+}
+.porcentagem{
+    width: 8%;
+}
+#CSS{
+    width: 80%;
+}
+#JavaScript{
+    width: 20%;
+}
+#Python{
+    width: 65%;
+}
+
 
 
 
