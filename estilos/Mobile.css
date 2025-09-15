@@ -90,6 +90,7 @@ i{
     padding: 10px;
 }
 #apresentacao iframe{
+    width: 98%;
     justify-self: center;
     border-radius: 8px;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.219);
@@ -111,9 +112,19 @@ i{
 }
 #skills{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     width: 100%;
-    height: 200px;
+    height: 100%;
+    justify-content: space-between;
+}
+.hardskills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.softskills{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .barra-div{
@@ -217,6 +228,7 @@ i{
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.116);
     margin-top: 5px;
     background-color: #355364bb;
+    margin-bottom: 5px;
 }
 #projetos h2{
     margin-bottom: 12px;
