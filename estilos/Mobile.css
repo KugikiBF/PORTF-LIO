@@ -7,7 +7,7 @@
 html,body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5me;
-    background-color: #f8e9e9;
+    background-color: #9fa39f;
     scroll-behavior: smooth;
 }
 header{
@@ -44,9 +44,6 @@ main{
     grid-template-columns: 0.1fr 2fr 0.1fr;
     grid-template-rows: 420px 420px 440px 370px auto;
 }
-i{
-    color: #F0F66E;
-}
 #ficha{
     display: grid;
     grid-area: 1 / 2 / 2 / 3;
@@ -71,6 +68,7 @@ i{
 #ficha a:hover{
     color: #2E5266;
     background-color: #F0F66E;
+    transition: 0.3s;
 }
 #ficha img{
     border-radius:100%;
@@ -89,6 +87,9 @@ i{
     margin-top: 5px;
     padding: 10px;
 }
+#apresentacao i{
+    color: #F0F66E;
+}
 #apresentacao iframe{
     width: 98%;
     justify-self: center;
@@ -104,6 +105,9 @@ i{
     border-radius: 10px;
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.116);
     margin-top: 5px;
+}
+#habilidades i{
+    color: #F0F66E;
 }
 #habilidades h2{
     width: 100%;
@@ -188,6 +192,9 @@ i{
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.116);
     margin-top: 5px;
 }
+#escolaridade i{
+    color: #F0F66E;
+}
 #escolaridade h4{
     color: #F0F66E;
 }
@@ -230,6 +237,9 @@ i{
     background-color: #355364bb;
     margin-bottom: 5px;
 }
+#projetos i{
+    color: #F0F66E;
+}
 #projetos h2{
     margin-bottom: 12px;
 }
@@ -268,6 +278,9 @@ footer a{
     color: #F0F66E;
     text-decoration: none;
     font-weight: bolder;
+}
+footer a:hover{
+    color: #eff66ec5;
 }
 
 
